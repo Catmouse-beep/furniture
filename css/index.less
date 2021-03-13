@@ -5,7 +5,7 @@ body {
   min-width: 320px;
   max-width: 750px;
   margin: 0 auto;
-  background-color: #f2f4f7;
+  background-color: #F1F2F7;
 }
 .bodys {
   width: 9.2rem;
@@ -150,5 +150,117 @@ a {
     width: 1.173333rem;
     height: 1.173333rem;
     margin-left: .133333rem;
+  }
+}
+.nav {
+  height: 100%;
+  width: 100%;
+  background-color: #F1F2F7;
+  border-radius: .266667rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: .533333rem;
+  margin-bottom: 80px;
+  img {
+    height: 4.533333rem;
+  }
+  div {
+    background-color: #FFFFFF;
+    box-shadow:1px 2px 3px #aaaaaa;
+    font-weight: 1300;
+    border-radius: .266667rem;
+  }
+  div:nth-child(odd) {
+    width: 4.46rem;
+    height: 7.066667rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 .24rem .24rem 0;
+   
+    p {
+      font-size: .373333rem;
+      color: #7A7A7A ;                           
+      margin-top: .266667rem;
+      margin-bottom: .133333rem;
+      margin-left: .266667rem;
+    }
+    span {
+      font-size: .32rem;
+      color: #7A7A7A;
+      margin-left: .266667rem;
+    }
+    em {
+      font-size: .32rem;
+      color: #7A7A7A;
+      text-align: end;
+      margin-right: .266667rem;
+      
+    }
+  }
+  div:nth-child(even) {
+    position: relative;
+    width: 4.48rem;
+    height: 7.066667rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 1500;
+    align-items: center;
+    img:nth-child(odd) {
+        width: 4.64rem;
+        position: absolute;
+        z-index: 1;
+    }
+    img:nth-child(even) {
+        z-index: 99;
+        margin-top: .133333rem;
+        width: 3.946667rem;
+        height: 3.946667rem;
+    }
+  
+    p {
+      font-size: .373333rem;
+      color: #FFFFFF;
+      margin-left: .266667rem;
+      z-index: 99;
+      margin-top: .266667rem;
+      margin-bottom: .133333rem;
+    }
+    span {
+      font-size: .32rem;
+      color: #FFFFFF;
+      margin-left: .266667rem;
+      z-index: 99;
+    }
+    em {
+      font-size: .32rem;
+      color: #7A7A7A;
+      align-self: flex-start;
+      margin: .56rem 0 0 .266667rem;
+    }
+  }
+}
+.footer {
+  width: 10rem;
+  height: 1.333333rem;
+  background-color: #FFFFFF;
+  position: fixed;
+  margin-top: 20px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 999999;
+  a {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: .64rem;
+      height: .64rem;
+    }
+    span {
+      font-size: .32rem;
+      color: #101010;
+      margin-top: .08rem;
+    }
   }
 }
